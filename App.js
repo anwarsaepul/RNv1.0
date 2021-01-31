@@ -1,14 +1,16 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
+import FlexBox from './FlexBox';
 import SampleComponent from './SampleComponent';
 import StylingReactNativeComponent from './StylingReactNativeComponent';
 
 const App = () => {
   return( 
-    <View style={{alignItems:'center'}}>
+    <View>
       <ScrollView>
-        <SampleComponent/>
-        <StylingReactNativeComponent/>
+        {/* <SampleComponent/>
+        <StylingReactNativeComponent/> */}
+        <FlexBox/>
       </ScrollView>
     </View>
   )
