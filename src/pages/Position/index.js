@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import Order from './order.png';
+import Order from '../../assets/icons/order.png';
 
-const PositionReactNative = () => {
+const Position = () => {
     return (
         <View style={styles.wrapper}>
             <View style={styles.OrderWrapper}>
@@ -13,7 +13,7 @@ const PositionReactNative = () => {
         </View>
     )
 }
-export default PositionReactNative;
+export default Position;
 
 const styles = StyleSheet.create({
     wrapper: {padding:20, alignItems:'center'},
